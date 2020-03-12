@@ -1,0 +1,11 @@
+.footer-item {
+    width: 318px;
+}
+
+.links-container {
+    display: grid;
+}
+
+.links-container > a {
+    margin-bottom: 8px;
+}

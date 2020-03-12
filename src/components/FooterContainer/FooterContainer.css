@@ -1,0 +1,7 @@
+.footer-container {
+    display: flex;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 72px;
+    border-top: 1px solid grey;
+}

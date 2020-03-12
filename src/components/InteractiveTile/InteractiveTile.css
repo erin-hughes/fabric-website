@@ -1,0 +1,30 @@
+body {
+    font: 14px "Lato", Regular;
+    padding-left: 16px;
+}
+
+.interactive-tile {
+    max-inline-size: 318px;
+    margin-right: 16px;
+    background-color: #F3F3F3;
+    width: 318px;
+    height: 165px;
+    padding: 16px;
+    position: relative;
+}
+
+.tile-heading {
+    font: 18px "Lato";
+    font-weight: bold;
+    margin: 0;
+}
+
+.go-to-page-icon {
+    margin-right: 16px;
+    margin-bottom: 16px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    vertical-align: bottom;
+    width: 24px;
+}

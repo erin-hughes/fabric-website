@@ -1,0 +1,19 @@
+body {
+    font: 16px "Lato", Regular;
+    margin: 14px;
+}
+
+.page-title {
+    font: 36px "Lato";
+    font-weight: Bold;
+    color: #427171;
+    margin-left: 220px;
+    margin-top: 90px;
+    line-height: 44px;
+}
+
+.title-subheading {
+    line-height: 20px;
+    margin-left: 220px;
+    margin-top: 24px;
+}

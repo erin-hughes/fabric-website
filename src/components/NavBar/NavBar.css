@@ -1,0 +1,30 @@
+body {
+    font: 16px "Lato", Regular;
+    margin: 16px;
+}
+
+.navbar-container {
+    height: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+    
+}
+
+.navbar-logo {
+    width: 32px;
+    height: 32px;
+    padding-top: 32px;
+    float: left;
+    vertical-align: middle;
+}
+
+.navbar-title {
+    float: left;
+    line-height: 100px;
+    margin-left: 16px;
+}
+
+.navbar-button-container {
+    float: right;
+    line-height: 100px;
+}
