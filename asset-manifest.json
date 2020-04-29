@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fabric-website/static/css/main.ac2500c7.chunk.css",
-    "main.js": "/fabric-website/static/js/main.092706b7.chunk.js",
-    "main.js.map": "/fabric-website/static/js/main.092706b7.chunk.js.map",
+    "main.js": "/fabric-website/static/js/main.e13c7965.chunk.js",
+    "main.js.map": "/fabric-website/static/js/main.e13c7965.chunk.js.map",
     "runtime-main.js": "/fabric-website/static/js/runtime-main.be2e60a0.js",
     "runtime-main.js.map": "/fabric-website/static/js/runtime-main.be2e60a0.js.map",
     "static/js/2.f4500969.chunk.js": "/fabric-website/static/js/2.f4500969.chunk.js",
     "static/js/2.f4500969.chunk.js.map": "/fabric-website/static/js/2.f4500969.chunk.js.map",
     "index.html": "/fabric-website/index.html",
-    "precache-manifest.711bbf68179c2ff520fc0c4f39ffa43b.js": "/fabric-website/precache-manifest.711bbf68179c2ff520fc0c4f39ffa43b.js",
+    "precache-manifest.3c98ecf8aa4c3863b9774d7b3993198b.js": "/fabric-website/precache-manifest.3c98ecf8aa4c3863b9774d7b3993198b.js",
     "service-worker.js": "/fabric-website/service-worker.js",
     "static/css/main.ac2500c7.chunk.css.map": "/fabric-website/static/css/main.ac2500c7.chunk.css.map",
     "static/js/2.f4500969.chunk.js.LICENSE.txt": "/fabric-website/static/js/2.f4500969.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.be2e60a0.js",
     "static/js/2.f4500969.chunk.js",
     "static/css/main.ac2500c7.chunk.css",
-    "static/js/main.092706b7.chunk.js"
+    "static/js/main.e13c7965.chunk.js"
   ]
 }
