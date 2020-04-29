@@ -1,25 +1,30 @@
-import React from 'react';
 import './App.css';
+import React from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import NavBar from '../src/components/NavBar/NavBar';
-import Header from '../src/components/Header/Header';
-import PageTitle from '../src/components/PageTitle/PageTitle';
-import ConceptDescriptionContainer from './components/ConceptDescriptionContainer/ConceptDescriptionContainer';
-import HomepageIllustration from './components/HomepageIllustration/HomepageIllustration';
-import InteractiveTileContainer from './components/InteractiveTileContainer/InteractiveTileContainer';
-import FooterContainer from './components/FooterContainer/FooterContainer';
+import HomePage from './components/Pages/HomePage/HomePage';
+import OperatorsPage from './components/Pages/OperatorsPage/OperatorsPage';
+import DevelopersPage from './components/Pages/DevelopersPage/DevelopersPage';
+import CommunityContributorsPage from './components/Pages/CommunityContributorsPage/CommunityContributorsPage'; 
+/* import TestingPage from './components/Pages/Testing/Testing'; */
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Header />
-      <PageTitle />
-      <ConceptDescriptionContainer />
-      <HomepageIllustration />
-      <InteractiveTileContainer />
-      <FooterContainer />
+      <Switch>
+        <Route exact path='/operators' render={() => <OperatorsPage/>}></Route>
+        <Route exact path='/developers' render={() => <DevelopersPage/>}></Route>
+        <Route exact path='/communitycontributors' render={() => <CommunityContributorsPage/>}></Route>
+        {/*<Route exact path='/testing' render={() => <TestingPage/>}></Route>*/}
+        <Route exact path='' render={() => <HomePage/>}></Route>
+        <Redirect to ='/'/>
+      </Switch>
     </div>
   );
 }
 
 export default App;
+
+
+

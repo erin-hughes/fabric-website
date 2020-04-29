@@ -1,0 +1,9 @@
+.page-container {
+    margin-left: 226px;
+}
+
+@media screen and (max-width: 1052px) {
+    .page-container {
+        margin-left: 32px;
+    }
+}

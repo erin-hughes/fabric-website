@@ -10,7 +10,8 @@ class HomepageIllustration extends React.Component {
             <div>
                 <img src={hyperledgerFabricIllustration} alt="Hyperledger Fabric illustration" className="fabric-illustration"></img>
             </div>
-        )
+            
+        );
     }
 }
 

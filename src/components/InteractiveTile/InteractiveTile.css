@@ -1,22 +1,23 @@
-body {
-    font: 14px "Lato", Regular;
-    padding-left: 16px;
-}
-
 .interactive-tile {
-    max-inline-size: 318px;
-    margin-right: 16px;
+    max-inline-size: 308px;
+    margin-right: 32px;
     background-color: #F3F3F3;
-    width: 318px;
-    height: 165px;
+    width: 276px;
+    height: 133px;
     padding: 16px;
     position: relative;
+}
+
+.interactive-tile:hover {
+    background-color: #DCDCDC;
+    cursor: pointer;
 }
 
 .tile-heading {
     font: 18px "Lato";
     font-weight: bold;
     margin: 0;
+    display: inline-block;  
 }
 
 .go-to-page-icon {
@@ -27,4 +28,11 @@ body {
     right: 0;
     vertical-align: bottom;
     width: 24px;
+}
+
+.version-number {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 16px;
+
 }

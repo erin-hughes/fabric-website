@@ -1,0 +1,36 @@
+.header-container-community {
+    background-image: url("../../res/Fabric\ website\ header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 342px;
+    display: flex;
+}
+
+.header-title-community {
+    font: 60px "Lato", Bold;
+    color: #FFFFFF;
+    margin: auto;
+    margin-left: 226px;
+    margin-right: 0px;
+    width: 655px;
+
+}
+
+
+.header-text-community {
+    font: 16px "Lato";
+    font-weight: Regular;
+    color: #FFFFFF;
+    margin: auto;
+    margin-left: 32px;
+    margin-right: 32px;
+    max-width: 307px;
+}
+
+@media screen and (max-width: 1052px) {
+    .header-title-community {
+        margin-left: 32px;
+    }
+}

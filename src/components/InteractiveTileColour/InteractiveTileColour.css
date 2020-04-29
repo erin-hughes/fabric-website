@@ -1,0 +1,53 @@
+body {
+    font: 14px "Lato", Regular;
+   
+}
+
+.interactive-tile-colour {
+    max-inline-size: 308px;
+    background-color: white;
+    width: 276px;
+    height: 133px;
+    padding: 16px;
+    position: relative;
+}
+
+.tile-heading-colour {
+    font: 18px "Lato";
+    font-weight: bold;
+    margin: 0px;
+    display: inline-block;   
+}
+
+.go-to-page-icon-colour {
+    margin-right: 16px;
+    margin-bottom: 16px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    vertical-align: bottom;
+    width: 24px;
+}
+
+.version-number {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.documentation-link {
+    color: black;
+    vertical-align: bottom;
+    bottom: 0;
+    left: 16px;
+    position: absolute;
+}
+
+.tall-logo-style {
+    height: 24px;
+    margin-right: 16px;
+}
+
+.short-logo-style {
+    height: 16px;
+    margin-right: 16px;
+}

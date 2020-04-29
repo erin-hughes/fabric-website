@@ -9,9 +9,11 @@ class ConceptDescription extends React.Component {
 
         return (
             <div className='concept-description'>
-                <h3 className="description-heading-one">{this.props.heading}</h3>
-                <h4>{this.props.subheading}</h4>
-                <p>{this.props.description}</p>
+                <div className="description-heading-one">{this.props.heading}</div>
+                <div style={{color: '#890300'}}>{this.props.subheadingRed}</div>
+                <div style={{color: '#008783'}}>{this.props.subheadingBlue}</div>
+                <div style={{color: 'grey'}}>{this.props.subheadingGrey}</div>
+                <p className='paragraph'>{this.props.description}</p>
                 
             </div>
         )
