@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "109db9ddfec7f0e461dfdd8392182ca6",
+    "revision": "f69fa6e7783aa23fa20abdd870d496d8",
     "url": "/fabric-website/index.html"
   },
   {
-    "revision": "ca647a3b28da98f737cd",
-    "url": "/fabric-website/static/css/main.ac2500c7.chunk.css"
+    "revision": "9298a679e59e9ef96b50",
+    "url": "/fabric-website/static/css/main.36403911.chunk.css"
   },
   {
-    "revision": "ca2881b0632779f215f7",
-    "url": "/fabric-website/static/js/2.15d1b1c5.chunk.js"
+    "revision": "134b49eab25c92415191",
+    "url": "/fabric-website/static/js/2.9655133e.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/fabric-website/static/js/2.15d1b1c5.chunk.js.LICENSE.txt"
+    "url": "/fabric-website/static/js/2.9655133e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca647a3b28da98f737cd",
-    "url": "/fabric-website/static/js/main.9c7d7b87.chunk.js"
+    "revision": "9298a679e59e9ef96b50",
+    "url": "/fabric-website/static/js/main.672c3570.chunk.js"
   },
   {
     "revision": "a40c08e97a1304ed44cf",
