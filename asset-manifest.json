@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a9aea20.chunk.css",
+    "main.js": "/static/js/main.5550b91d.chunk.js",
+    "main.js.map": "/static/js/main.5550b91d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f8c5b4be.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f8c5b4be.js.map",
+    "static/js/2.dc1b41c5.chunk.js": "/static/js/2.dc1b41c5.chunk.js",
+    "static/js/2.dc1b41c5.chunk.js.map": "/static/js/2.dc1b41c5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.eff239d26fc31a97d50c07c6fa0fa66b.js": "/precache-manifest.eff239d26fc31a97d50c07c6fa0fa66b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9a9aea20.chunk.css.map": "/static/css/main.9a9aea20.chunk.css.map",
+    "static/js/2.dc1b41c5.chunk.js.LICENSE.txt": "/static/js/2.dc1b41c5.chunk.js.LICENSE.txt",
+    "static/media/Caliper.png": "/static/media/Caliper.dffd1d5d.png",
+    "static/media/HeaderCommunityContributors.css": "/static/media/Fabric website header.dd2503aa.png",
+    "static/media/Fabric website illustration.png": "/static/media/Fabric website illustration.348da458.png",
+    "static/media/arrow--right.svg": "/static/media/arrow--right.cd011f69.svg",
+    "static/media/caret--down.svg": "/static/media/caret--down.a2c135d5.svg",
+    "static/media/caret--up.svg": "/static/media/caret--up.aa086bdf.svg",
+    "static/media/go.png": "/static/media/go.8f3a1403.png",
+    "static/media/launch.svg": "/static/media/launch.703cfe5d.svg",
+    "static/media/nodejs.png": "/static/media/nodejs.06dff725.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8c5b4be.js",
+    "static/js/2.dc1b41c5.chunk.js",
+    "static/css/main.9a9aea20.chunk.css",
+    "static/js/main.5550b91d.chunk.js"
+  ]
+}
