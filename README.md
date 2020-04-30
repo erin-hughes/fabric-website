@@ -1,3 +1,15 @@
+### FEEDBACK FOR WEBSITE
+Please use this box link to leave feedback and check if this is an issue that has already been noted. If it has not been mentioned in the box note, please raise an issue and update the box note!
+Particularly looking for feedback on the contents and where the links go - there's still work to do on certain area e.g. centering all the contents (check out how much better it looks with a screen that makes the margins either side the same!),  resizing...
+
+Website link; https://erin-hughes.github.io/fabric-website/
+
+Box note link; https://ibm.box.com/s/p3jwehoefv5qugb43vwrcc06hcplg13a
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
