@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fabric-website/static/css/main.36403911.chunk.css",
-    "main.js": "/fabric-website/static/js/main.672c3570.chunk.js",
-    "main.js.map": "/fabric-website/static/js/main.672c3570.chunk.js.map",
+    "main.css": "/fabric-website/static/css/main.0e219d20.chunk.css",
+    "main.js": "/fabric-website/static/js/main.b57aba8c.chunk.js",
+    "main.js.map": "/fabric-website/static/js/main.b57aba8c.chunk.js.map",
     "runtime-main.js": "/fabric-website/static/js/runtime-main.be2e60a0.js",
     "runtime-main.js.map": "/fabric-website/static/js/runtime-main.be2e60a0.js.map",
     "static/js/2.9655133e.chunk.js": "/fabric-website/static/js/2.9655133e.chunk.js",
     "static/js/2.9655133e.chunk.js.map": "/fabric-website/static/js/2.9655133e.chunk.js.map",
     "index.html": "/fabric-website/index.html",
-    "precache-manifest.f7c6b598197254e4299717f093bc33a3.js": "/fabric-website/precache-manifest.f7c6b598197254e4299717f093bc33a3.js",
+    "precache-manifest.638253a88b0952eca05583b6ef4ca203.js": "/fabric-website/precache-manifest.638253a88b0952eca05583b6ef4ca203.js",
     "service-worker.js": "/fabric-website/service-worker.js",
-    "static/css/main.36403911.chunk.css.map": "/fabric-website/static/css/main.36403911.chunk.css.map",
+    "static/css/main.0e219d20.chunk.css.map": "/fabric-website/static/css/main.0e219d20.chunk.css.map",
     "static/js/2.9655133e.chunk.js.LICENSE.txt": "/fabric-website/static/js/2.9655133e.chunk.js.LICENSE.txt",
     "static/media/Caliper.png": "/fabric-website/static/media/Caliper.dffd1d5d.png",
     "static/media/HeaderCommunityContributors.css": "/fabric-website/static/media/Fabric website header.dd2503aa.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.be2e60a0.js",
     "static/js/2.9655133e.chunk.js",
-    "static/css/main.36403911.chunk.css",
-    "static/js/main.672c3570.chunk.js"
+    "static/css/main.0e219d20.chunk.css",
+    "static/js/main.b57aba8c.chunk.js"
   ]
 }
