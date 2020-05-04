@@ -48,9 +48,9 @@ class TileContainerDeveloperReference extends React.Component {
                 </div>
 
                 <div className='gatewaysdk-development'>
-                    <h1 className='development-header'>Chaincode development</h1>
-                    <p className='development-paragraph'>Get started on developing smart contracts. Explore the links below to 
-                    check out the latest versions of the documentation for Java, node.js and Go. </p>
+                    <h1 className='development-header'>Gateway SDK development</h1>
+                    <p className='development-paragraph'>The Fabric Gateway SDK allows applications to interact with a Fabric Blockchain network. Learn more
+                    about getting started with Fabric Gateway SDKs below. </p>
                 <div className='tile-container-developer-reference'> 
                     <div className='node-styling'>
                     <InteractiveTileColour
