@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavBar.css';
 import fabricLogo from '../../res/Hyperledger Fabric Logo.png';
+import { Link, NavLink } from 'react-router-dom';
 
 class NavBar extends React.Component {
 
@@ -8,15 +9,15 @@ class NavBar extends React.Component {
 
         return (
             <div className="navbar-container">
-                <a href='/'>
-                <img src={fabricLogo} alt="Fabric" className="navbar-logo"></img>
-                </a>
+                <Link exact to='/'>
+                    <img src={fabricLogo} alt="Fabric" className="navbar-logo"></img>
+                </Link>
                 <div className="navbar-title">Hyperledger <span className="navbar-title-red">Fabric</span></div>
                 <div className="navbar-link-container">
-                    <a href='/' className="navbar-text-link">Overview</a>
-                    <a href='/operators' className="navbar-text-link">Operators</a>
-                    <a href='/developers' className="navbar-text-link">Developers</a>
-                    <a href='/communitycontributors' className="navbar-text-link">Community and Contributors</a>
+                    <NavLink exact to='/'>Overview</NavLink>
+                    <NavLink exact to='/operators'>Operators</NavLink>
+                    <NavLink exact to='/developers'>Developers</NavLink>
+                    <NavLink exact to='/communitycontributors'>Community and Contributors</NavLink>
                 </div>
             </div>
         )

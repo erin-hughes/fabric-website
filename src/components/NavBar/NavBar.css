@@ -46,9 +46,6 @@
     text-decoration: none;
 }
 
-.navbar-text-link:hover {
+.navbar-link-container > a:hover {
     border-bottom: 2px solid #2C687B;
 }
-
-
-
