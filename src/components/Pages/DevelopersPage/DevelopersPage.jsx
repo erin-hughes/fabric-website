@@ -1,5 +1,6 @@
 import React from 'react';
 import PageTitle from '../../../components/PageTitle/PageTitle';
+import FooterBorder from '../../../components/FooterBorder/FooterBorder';
 import FooterContainer from '../../../components/FooterContainer/FooterContainer';
 import PerformanceSection from '../../../components/PerformanceSection/PerformanceSection';
 import HeaderDevelopers from '../../../components/HeaderDevelopers/HeaderDevelopers';
@@ -25,6 +26,7 @@ class DevelopersPage extends React.Component {
                     for further information.'} />
                 <TileContainerDeveloperReference />
                 <PerformanceSection />
+                <FooterBorder />
                 <FooterContainer />
                 </div>
             </>

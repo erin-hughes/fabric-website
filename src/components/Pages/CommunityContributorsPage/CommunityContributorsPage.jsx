@@ -1,7 +1,7 @@
 import React from 'react';
 import PageTitle from '../../../components/PageTitle/PageTitle';
+import FooterBorder from '../../../components/FooterBorder/FooterBorder';
 import FooterContainer from '../../../components/FooterContainer/FooterContainer';
-
 import HeaderCommunityContributors from '../../../components/HeaderCommunityContributors/HeaderCommunityContributors';
 import TileContainerGithubRepos from '../../../components/TileContainerGithubRepos/TileContainerGithubRepos';
 import TileContainerChatMailingLists from '../../../components/TileContainerChatMailingLists/TileContainerChatMailingLists';
@@ -22,6 +22,7 @@ class CommunityContributors extends React.Component {
                     Hyperledger’s preferred chat platform (Rocket.Chat), \
                     as well as mailing lists, community calls and wikis.'} />
                 <TileContainerChatMailingLists />
+                <FooterBorder />
                 <FooterContainer />
                 </div>
             </>

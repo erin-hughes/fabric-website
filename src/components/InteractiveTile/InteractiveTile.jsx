@@ -11,7 +11,7 @@ class InteractiveTile extends React.Component {
     }
     
     redirectToLink() {
-        window.location.href = this.props.link;
+        window.open(this.props.link, '_blank');
     }
 
     render () {

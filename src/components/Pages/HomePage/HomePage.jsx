@@ -3,6 +3,7 @@ import HeaderHomepage from '../../../components/HeaderHomepage/HeaderHomepage';
 import PageTitle from '../../../components/PageTitle/PageTitle';
 import ConceptDescriptionContainer from '../../../components/ConceptDescriptionContainer/ConceptDescriptionContainer';
 import HomepageIllustration from '../../../components/HomepageIllustration/HomepageIllustration';
+import FooterBorder from '../../../components/FooterBorder/FooterBorder';
 import FooterContainer from '../../../components/FooterContainer/FooterContainer';
 import TileContainerHome from '../../../components/TileContainerHome/TileContainerHome';
 import '../Page.css';
@@ -22,6 +23,7 @@ class HomePage extends React.Component {
                         <ConceptDescriptionContainer />
                         <HomepageIllustration />
                         <TileContainerHome />
+                        <FooterBorder />
                         <FooterContainer />
                         </div>
                 </>

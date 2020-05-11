@@ -1,7 +1,9 @@
 .footer-item {
     width: 308px;
     margin-right: 32px;
+    position: relative;
 }
+
 
 .links-container {
     display: grid;

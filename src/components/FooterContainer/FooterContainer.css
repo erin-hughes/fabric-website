@@ -1,8 +1,4 @@
 .footer-container {
     display: flex;
-    margin-top: 72px;
     margin-bottom: 62px;
-    border-top: 1px solid #F3F3F3;
-    max-width: 988px;
-    margin-right: 32px;
 }

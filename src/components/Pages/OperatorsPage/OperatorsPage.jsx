@@ -1,5 +1,6 @@
 import React from 'react';
 import PageTitle from '../../../components/PageTitle/PageTitle';
+import FooterBorder from '../../../components/FooterBorder/FooterBorder';
 import FooterContainer from '../../../components/FooterContainer/FooterContainer';
 import HeaderOperators from '../../../components/HeaderOperators/HeaderOperators';
 import TileContainerOperatorsIntro from '../../../components/TileContainerOperatorsIntro/TileContainerOperatorsIntro';
@@ -71,6 +72,7 @@ class OperatorsPage extends React.Component {
                         />
                     <TileContainerOperatorsReferences fabricVersion={this.state.fabricVersion}/>
                     <PerformanceSection />
+                    <FooterBorder />
                     <FooterContainer />
                 </div>
             </>
