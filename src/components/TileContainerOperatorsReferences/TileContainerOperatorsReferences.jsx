@@ -26,12 +26,14 @@ class TileContainerOperatorsReferences extends React.Component {
                         heading={'Operations guides'}
                         version={version}
                         description={'Task-level guidance on how to go about some of the most \
-                        common Fabric operational tasks.'} 
+                        common Fabric operational tasks.'}
+                        openInThisTab={false}
                         link={tileOneLink}/>
                 <InteractiveTile 
                         heading={'Commands reference'}
                         version={version}
-                        description={'Directory of Fabric commands used in operational tasks.'} 
+                        description={'Directory of Fabric commands used in operational tasks.'}
+                        openInThisTab={false}
                         link={tileTwoLink}/>
             </div>
         )

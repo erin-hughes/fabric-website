@@ -15,12 +15,14 @@ class TileContainerDeveloperIntro extends React.Component {
                     description={'A free, open source extension \
                     for Visual Studio Code (provided by IBM) that \
                     comes with tutorials.'} 
+                    openInThisTab={false}
                     link={'https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform'}/>
                 <InteractiveTile 
                     heading={'Commercial paper tutorial'}
                     description={'Thorough tutorial themed on \
                     financial assets examining all aspects of a \
                     solution built on Fabric.'} 
+                    openInThisTab={false}
                     link={'https://hyperledger-fabric.readthedocs.io/en/release-1.4/tutorial/commercial_paper.html'}/>
             </div>
         )

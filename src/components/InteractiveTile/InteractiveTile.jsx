@@ -11,7 +11,11 @@ class InteractiveTile extends React.Component {
     }
     
     redirectToLink() {
-        window.open(this.props.link, '_blank');
+        if (this.props.openInThisTab === true) {
+            window.open(this.props.link, '_self');
+        } else {
+            window.open(this.props.link, '_blank');
+        }
     }
 
     render () {

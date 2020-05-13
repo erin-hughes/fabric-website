@@ -15,6 +15,7 @@ class TileContainerChatMailingLists extends React.Component {
                     description={'To join any of the \
                     communication channels, check out the \
                     “Community” section on the Fabric Github ReadMe.'} 
+                    openInThisTab={false}
                     link={'https://github.com/hyperledger/fabric/blob/master/README.md'} />
            
             </div>
