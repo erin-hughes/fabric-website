@@ -18,11 +18,11 @@ class PerformanceSection extends React.Component {
                          alt="Caliper logo"></img>
                     </a>
                 </div>
-                <div className="title-subheading-performance">Hyperledger Calliper is a 
+                <div className="title-subheading-performance">Hyperledger Caliper is a 
                 project that concentrates on performance testing and benchmarking for 
                 Hyperledger runtimes (Fabric included). To view published performance 
                 reports and learn how to conduct your own performance tests, we recommend 
-                visiting the Hyperledger Calliper Performance website.</div>
+                visiting the <a href="https://www.hyperledger.org/use/caliper" target='_blank'>Hyperledger Caliper</a> performance website.</div>
                 
             </div>
         )
@@ -30,3 +30,4 @@ class PerformanceSection extends React.Component {
 }
 
 export default PerformanceSection;
+
