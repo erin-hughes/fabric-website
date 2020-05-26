@@ -13,11 +13,10 @@ class TileContainerOperatorsIntro extends React.Component {
             <div className='tile-container-operators'>
                 
                 <InteractiveTile 
-                    heading={'Building your first network'}
-                    description={'A set of scripts and tutorial explanation to help you \
-                    build your first Fabric network from scratch.'}
+                    heading={'Using the Fabric test network'}
+                    description={'Use the test network to learn about Fabric by running nodes on your local machine.'}
                     openInThisTab={false}
-                    link={'https://hyperledger-fabric.readthedocs.io/en/release-1.4/build_network.html'}/>
+                    link={'https://hyperledger-fabric.readthedocs.io/en/release-2.0/test_network.html'}/>
             </div>
         )
     }
