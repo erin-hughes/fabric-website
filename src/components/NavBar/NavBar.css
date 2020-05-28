@@ -34,8 +34,13 @@
 @media screen and (max-width: 768px) {
     .navbar-link-container {
         float: left;
-        line-height: inherit;
         margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .navbar-link-container {
+        line-height: inherit;
     }
 }
 

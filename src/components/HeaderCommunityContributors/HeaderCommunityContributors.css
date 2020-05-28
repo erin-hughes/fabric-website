@@ -34,3 +34,22 @@
         margin-left: 32px;
     }
 }
+
+@media screen and (max-width: 877px) {
+    .header-container-community {
+        display: block;
+        height: 314px;
+    }
+
+    .header-container-community > .header-title-community { 
+        width: auto;
+        font-size: 40px;
+        margin: 32px;
+        padding-top: 32px;
+    }
+
+    .header-container-community > .header-text-community {
+        width: auto;
+        max-width: 100%;
+    }
+}

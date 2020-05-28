@@ -7,3 +7,9 @@
         margin-left: 32px;
     }
 }
+
+@media screen and (max-width: 877px) {
+    .page-container {
+        margin-right: 32px;
+    }
+}

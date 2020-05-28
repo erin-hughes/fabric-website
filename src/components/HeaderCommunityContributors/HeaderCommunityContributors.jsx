@@ -7,7 +7,7 @@ class HeaderCommunityContributors extends React.Component {
         return (
 
             <div className="header-container-community">
-                <h1 className="header-title-community">Community & Contributors</h1>
+                <h1 className="header-title-community">Community</h1>
                 <div className="header-text-community">Contribute to the Fabric codebase, or join 
                 the discussion with other users.</div>
             </div>

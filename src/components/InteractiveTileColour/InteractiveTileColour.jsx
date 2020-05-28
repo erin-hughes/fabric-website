@@ -17,17 +17,15 @@ class InteractiveTileColour extends React.Component {
 
     render () {
 
-        return (
+        const styles = "interactive-tile-colour " + this.props.customStyle;
 
-       
-            <div className='interactive-tile-colour' onClick={this.redirectToLink}> 
-                 
+        return (
+            <div className={styles} onClick={this.redirectToLink}> 
                  <img className={this.props.logoStyle} src={this.props.logo}></img>
                  <h3 className='tile-heading-colour'>{this.props.headingColour}</h3>
                  <p className='version-number'>{this.props.version}</p>
                  <p className='documentation-link'>{this.props.descriptionColour}</p>
                  <img src={goToExternalLink} alt="Let's go" className="go-to-page-icon-colour"></img>
-                 
             </div>
         ) 
     }

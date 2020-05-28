@@ -12,6 +12,25 @@ body {
     display: flex;
 }
 
+@media screen and (max-width: 877px) {
+    .header-container-operators {
+        display: block;
+        height: 314px;
+    }
+
+    .header-container-operators > .header-title-operators { 
+        width: auto;
+        font-size: 40px;
+        margin: 32px;
+        padding-top: 32px;
+    }
+
+    .header-container-operators > .header-text-operators {
+        width: auto;
+        max-width: 100%;
+    }
+}
+
 .header-title-operators {
     font: 60px "Lato", Bold;
     color: #FFFFFF;
