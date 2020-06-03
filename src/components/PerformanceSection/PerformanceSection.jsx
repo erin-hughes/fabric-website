@@ -22,7 +22,7 @@ class PerformanceSection extends React.Component {
                 project that concentrates on performance testing and benchmarking for 
                 Hyperledger runtimes (Fabric included). To view published performance 
                 reports and learn how to conduct your own performance tests, we recommend 
-                visiting the <a href="https://www.hyperledger.org/use/caliper" target='_blank'>Hyperledger Caliper</a> performance website.</div>
+                visiting the <a href="https://hyperledger.github.io/caliper/" target='_blank'>Hyperledger Caliper</a> performance website.</div>
                 
             </div>
         )

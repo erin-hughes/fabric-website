@@ -14,7 +14,7 @@ class CommunityContributors extends React.Component {
                 <HeaderCommunityContributors />
                 <div className='page-container'>
                 <PageTitle
-                    titleName={'GitHub repositories'} />
+                    titleName={'Repositories'} />
                 <TileContainerGithubRepos />
                 <PageTitle
                     titleName={'Chat, mailing lists & more'} 

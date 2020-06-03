@@ -8,7 +8,7 @@ class HeaderHomepage extends React.Component {
         return (
 
             <div className="header-container">
-                <h1 className="header-title">Welcome to Hyperledger Fabric</h1>
+                <h1 className="header-title">Using Hyperledger Fabric</h1>
                 <div className="header-text-reg"><text style={{ fontWeight: 'bold' }}>Hyperledger 
                 Fabric </text> is an enterprise-grade permissioned distributed ledger framework for 
                 developing solutions and applications. Its modular and versatile design satisfies a 

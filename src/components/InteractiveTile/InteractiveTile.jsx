@@ -1,6 +1,7 @@
 import React from 'react';
 import './InteractiveTile.css';
 import goToPage from '../../res/arrow--right.svg';
+import openNewTab from '../../res/launch.svg';
 
 class InteractiveTile extends React.Component {
 
@@ -19,17 +20,21 @@ class InteractiveTile extends React.Component {
     }
 
     render () {
+        let icon;
+        if(this.props.openInThisTab === true) {
+            icon = goToPage;
+        } else {
+            icon = openNewTab;
+        }
 
         return (
-
-       
             <div className='interactive-tile' onClick={this.redirectToLink}> 
                  
                  <h3 className='tile-heading'>{this.props.heading}</h3>
                  <p className='version-number'>{this.props.version}</p>
                  <p>{this.props.description}</p>
-                 <img src={goToPage} alt="Let's go" className="go-to-page-icon"></img>
-                 
+                 <img src={icon} alt="Let's go" className="go-to-page-icon"></img>
+ 
             </div>
         )
     }
