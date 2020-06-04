@@ -19,7 +19,7 @@ class TileContainerDeveloperIntro extends React.Component {
                     link={'https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform'}/>
                 <InteractiveTile 
                     heading={'Commercial paper tutorial'}
-                    description={'Thorough tutorial themed on \
+                    description={'A tutorial themed on \
                     financial assets examining all aspects of a \
                     solution built on Fabric.'} 
                     openInThisTab={false}

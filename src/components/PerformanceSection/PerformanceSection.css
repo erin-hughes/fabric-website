@@ -3,7 +3,7 @@
     font-weight: Bold;
     color: #427171;
     line-height: 40px;
-    max-inline-size: 649px;
+    max-inline-size: 672px;
 }
 
 .performance-title-container {
@@ -11,7 +11,7 @@
     margin-top: 80px;
     justify-content: space-between;
     width: 649px;
-    max-inline-size: 649px;
+    max-inline-size: 672px;
 }
 
 @media screen and (max-width: 700px) {
@@ -28,10 +28,10 @@
 .title-subheading-performance {
     line-height: 20px;
     margin-top: 24px;
-    max-inline-size: 649px;
+    max-inline-size: 672px;
 }
 
 .caliper-image {
     width: 140px;
-    margin-right: 32px;
+    
 }

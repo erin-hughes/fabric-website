@@ -22,7 +22,7 @@ class DevelopersPage extends React.Component {
                     titleName={'References'} 
                     titleSubheading={'The most common reference information for Fabric \
                     developers: keep these resources handy! Commands may vary by version \
-                    - if you’re not sure what version to use, check Releases on GitHub \
+                    - if you’re not sure what version to use, check releases on GitHub \
                     for further information.'} />
                 <TileContainerDeveloperReference />
                 <PerformanceSection />

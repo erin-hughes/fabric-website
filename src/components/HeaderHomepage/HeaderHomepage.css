@@ -28,6 +28,7 @@ body {
     .header-container > .header-text-reg {
         width: auto;
         max-width: 100%;
+        margin-left: 32px;
     }
 }
 
@@ -37,7 +38,7 @@ body {
     margin: auto;
     margin-left: 226px;
     margin-right: 0px;
-    width: 655px;
+    width: 660px;
 
 }
 
@@ -52,7 +53,7 @@ body {
     font-weight: Regular;
     color: #FFFFFF;
     margin: auto;
-    margin-left: 32px;
+    margin-left: 44px;
     margin-right: 32px;
-    max-width: 307px;
+    max-width: 320px;
 }
