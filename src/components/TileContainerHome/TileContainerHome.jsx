@@ -23,7 +23,7 @@ class TileContainerHome extends React.Component {
                     openInThisTab={true}
                     link={'/developers'}/>
                 <InteractiveTile
-                    heading={'Community & Contributors'}
+                    heading={'Community'}
                     description={'Contribute to the Fabric codebase, or join the \
                     discussion with other users.'} 
                     openInThisTab={true}
