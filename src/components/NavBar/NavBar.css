@@ -1,6 +1,10 @@
 .navbar-container {
     height: 100px;
     padding-left: 32px;
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index:1;
     
 }
 
@@ -28,6 +32,7 @@
 .navbar-link-container {
     float: right;
     line-height: 100px;
+    margin-right: 32px;
 
 }
 

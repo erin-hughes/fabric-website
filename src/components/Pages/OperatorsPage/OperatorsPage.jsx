@@ -1,4 +1,6 @@
 import React from 'react';
+import NavBar from '../../../components/NavBar/NavBar';
+import NavBarBackground from '../../../components/NavBarBackground/NavBarBackground';
 import PageTitle from '../../../components/PageTitle/PageTitle';
 import FooterBorder from '../../../components/FooterBorder/FooterBorder';
 import FooterContainer from '../../../components/FooterContainer/FooterContainer';
@@ -52,6 +54,8 @@ class OperatorsPage extends React.Component {
 
         return (
             <>
+                <NavBar />
+                <NavBarBackground />
                 <HeaderOperators />
                 <div className='page-container'>
                     <PageTitle

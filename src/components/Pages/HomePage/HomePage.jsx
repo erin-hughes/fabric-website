@@ -1,4 +1,6 @@
 import React from 'react';
+import NavBar from '../../../components/NavBar/NavBar';
+import NavBarBackground from '../../../components/NavBarBackground/NavBarBackground';
 import HeaderHomepage from '../../../components/HeaderHomepage/HeaderHomepage';
 import PageTitle from '../../../components/PageTitle/PageTitle';
 import ConceptDescriptionContainer from '../../../components/ConceptDescriptionContainer/ConceptDescriptionContainer';
@@ -8,11 +10,14 @@ import FooterContainer from '../../../components/FooterContainer/FooterContainer
 import TileContainerHome from '../../../components/TileContainerHome/TileContainerHome';
 import '../Page.css';
 
+
 class HomePage extends React.Component {
 
         render() {
             return (
                 <>
+                    <NavBar />
+                    <NavBarBackground />
                     <HeaderHomepage />
                     <div className='page-container'>
                         <PageTitle 
