@@ -10,6 +10,11 @@ import TileContainerChatMailingLists from '../../../components/TileContainerChat
 import '../Page.css';
 
 class CommunityContributors extends React.Component {
+    
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+    
     render() {
         return (
             <>

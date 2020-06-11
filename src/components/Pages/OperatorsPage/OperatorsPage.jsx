@@ -23,6 +23,10 @@ class OperatorsPage extends React.Component {
         this.onSelect =  this.onSelect.bind(this);
     }
 
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+
     onSelect(e) {
         this.setState({
             fabricVersion: e.target.innerHTML
