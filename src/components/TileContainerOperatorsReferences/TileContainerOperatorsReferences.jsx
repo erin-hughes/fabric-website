@@ -8,36 +8,73 @@ class TileContainerOperatorsReferences extends React.Component {
         let version = '2.1';
         let tileOneLink = 'https://hyperledger-fabric.readthedocs.io/en/latest/ops_guide.html';
         let tileTwoLink = 'https://hyperledger-fabric.readthedocs.io/en/latest/command_ref.html';
-        if (this.props.fabricVersion === '2.0') {
-            version = this.props.fabricVersion;
-            tileOneLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/ops_guide.html';
-            tileTwoLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/command_ref.html';
-        } else if (this.props.fabricVersion === '1.4') {
+        let tileThreeLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.1/deployment_guide_overview.html';
+
+        
+        
+        if (this.props.fabricVersion === '1.4') {
             version = this.props.fabricVersion;
             tileOneLink = 'https://hyperledger-fabric.readthedocs.io/en/release-1.4/ops_guide.html';
             tileTwoLink = 'https://hyperledger-fabric.readthedocs.io/en/release-1.4/command_ref.html';
+
+            return ( 
+
+                <div className='tile-container-operators'> 
+                    <InteractiveTile
+                            heading={'Operations guides'}
+                            version={version}
+                            description={'Task-level guidance on how to go about some of the most \
+                            common Fabric operational tasks.'}
+                            openInThisTab={false}
+                            link={tileOneLink}/>
+                    <InteractiveTile 
+                            heading={'Commands reference'}
+                            version={version}
+                            description={'Directory of Fabric commands used in operational tasks.'}
+                            openInThisTab={false}
+                            link={tileTwoLink}/>
+                </div>
+
+
+            )
+            
+        } else {
+            version = this.props.fabricVersion;
+            tileOneLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/ops_guide.html';
+            tileTwoLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/command_ref.html';
+            tileThreeLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/deployment_guide_overview.html';
+        
+            return (
+
+                <div className='tile-container-operators'> 
+                    <InteractiveTile
+                            heading={'Operations guides'}
+                            version={version}
+                            description={'Task-level guidance on how to go about some of the most \
+                            common Fabric operational tasks.'}
+                            openInThisTab={false}
+                            link={tileOneLink}/>
+                    <InteractiveTile 
+                            heading={'Commands reference'}
+                            version={version}
+                            description={'Directory of Fabric commands used in operational tasks.'}
+                            openInThisTab={false}
+                            link={tileTwoLink}/>
+                    <InteractiveTile
+                            heading={'Deployment guide'}
+                            version={version}
+                            description={'A high level overview of the sequence for setting up \
+                            production Fabric network components, as well as best \
+                            practices when deploying.'}
+                            openInThisTab={false}
+                            link={tileThreeLink}/>
+                </div>
+            )
         }
 
-
-        return (
-
-            <div className='tile-container-operators'> 
-                <InteractiveTile
-                        heading={'Operations guides'}
-                        version={version}
-                        description={'Task-level guidance on how to go about some of the most \
-                        common Fabric operational tasks.'}
-                        openInThisTab={false}
-                        link={tileOneLink}/>
-                <InteractiveTile 
-                        heading={'Commands reference'}
-                        version={version}
-                        description={'Directory of Fabric commands used in operational tasks.'}
-                        openInThisTab={false}
-                        link={tileTwoLink}/>
-            </div>
-        )
+        
     }
 }
+
 
 export default TileContainerOperatorsReferences;

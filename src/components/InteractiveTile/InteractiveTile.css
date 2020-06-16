@@ -17,6 +17,7 @@
     font-weight: bold;
     margin: 0;
     display: inline-block;  
+    margin-right: 16px;
 }
 
 .go-to-page-icon {
@@ -32,6 +33,5 @@
 .version-number {
     display: inline-block;
     margin: 0px;
-    margin-left: 16px;
-
+    
 }

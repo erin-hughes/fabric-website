@@ -29,7 +29,8 @@ class CommunityContributors extends React.Component {
                     titleName={'Chat, mailing lists & more'} 
                     titleSubheading={'Fabric has its own channels on \
                     Hyperledger’s preferred chat platform (Rocket.Chat), \
-                    as well as mailing lists, community calls and wikis.'} />
+                    as well as mailing lists, community calls, contributing \
+                    guides and wikis.'} />
                 <TileContainerChatMailingLists />
                 <FooterBorder />
                 <FooterContainer />

@@ -23,7 +23,7 @@ class InteractiveTileColour extends React.Component {
             <div className={styles} onClick={this.redirectToLink}> 
                  <img className={this.props.logoStyle} src={this.props.logo}></img>
                  <h3 className='tile-heading-colour'>{this.props.headingColour}</h3>
-                 <p className='version-number'>{this.props.version}</p>
+                 <p className='version-number-colour'>{this.props.version}</p>
                  <p className='documentation-link'>{this.props.descriptionColour}</p>
                  <img src={goToExternalLink} alt="Let's go" className="go-to-page-icon-colour"></img>
             </div>

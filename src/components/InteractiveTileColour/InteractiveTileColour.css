@@ -12,7 +12,8 @@
     font: 18px "Lato";
     font-weight: bold;
     margin: 0px;
-    display: inline-block;   
+    display: inline-block; 
+    margin-right: 16px;  
 }
 
 .go-to-page-icon-colour {
@@ -25,9 +26,9 @@
     width: 24px;
 }
 
-.version-number {
+.version-number-colour {
     display: inline-block;
-    margin-left: 16px;
+    
 }
 
 .documentation-link {

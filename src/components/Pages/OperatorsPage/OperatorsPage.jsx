@@ -17,7 +17,7 @@ class OperatorsPage extends React.Component {
         super(props);
 
         this.state = {
-            fabricVersion: '2.1 (Latest version)'
+            fabricVersion: '2.1 (Latest)'
         }
 
         this.onSelect =  this.onSelect.bind(this);
@@ -37,7 +37,7 @@ class OperatorsPage extends React.Component {
         let fabricOptions = [
             {
                 id: 0,
-                title: '2.1 (Latest version)',
+                title: '2.1 (Latest)',
                 selected: false,
                 key: 'fabricVersion'
             },
