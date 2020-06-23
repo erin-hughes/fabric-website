@@ -5,13 +5,11 @@ import InteractiveTile from '../InteractiveTile/InteractiveTile';
 class TileContainerOperatorsReferences extends React.Component {
 
     render () {
-        let version = '2.1';
-        let tileOneLink = 'https://hyperledger-fabric.readthedocs.io/en/latest/ops_guide.html';
-        let tileTwoLink = 'https://hyperledger-fabric.readthedocs.io/en/latest/command_ref.html';
-        let tileThreeLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.1/deployment_guide_overview.html';
+        let version;
+        let tileOneLink;
+        let tileTwoLink;
+        let tileThreeLink;
 
-        
-        
         if (this.props.fabricVersion === '1.4') {
             version = this.props.fabricVersion;
             tileOneLink = 'https://hyperledger-fabric.readthedocs.io/en/release-1.4/ops_guide.html';
@@ -40,10 +38,15 @@ class TileContainerOperatorsReferences extends React.Component {
             
         } else {
             version = this.props.fabricVersion;
-            tileOneLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/ops_guide.html';
-            tileTwoLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/command_ref.html';
-            tileThreeLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/deployment_guide_overview.html';
-        
+            if (version === '2.0') {
+                tileOneLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/ops_guide.html';
+                tileTwoLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/command_ref.html';
+                tileThreeLink = 'https://hyperledger-fabric.readthedocs.io/en/release-2.0/deployment_guide_overview.html';
+            } else {
+                tileOneLink = 'https://hyperledger-fabric.readthedocs.io/en/latest/ops_guide.html';
+                tileTwoLink = 'https://hyperledger-fabric.readthedocs.io/en/latest/command_ref.html';
+                tileThreeLink = 'https://hyperledger-fabric.readthedocs.io/en/latest/deployment_guide_overview.html';
+            }
             return (
 
                 <div className='tile-container-operators'> 
@@ -71,8 +74,6 @@ class TileContainerOperatorsReferences extends React.Component {
                 </div>
             )
         }
-
-        
     }
 }
 
